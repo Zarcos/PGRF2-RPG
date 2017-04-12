@@ -1,0 +1,2590 @@
+# Blender MTL File: 'None'
+# Material Count: 215
+
+newmtl BASIC01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\BASIC01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\BASIC01.tga
+
+newmtl Giran_CH_statue01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Giran_CH_statue01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Giran_CH_statue01.tga
+
+newmtl Giran_CH_statue02
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Giran_CH_statue02.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Giran_CH_statue02.tga
+
+newmtl Giran_CH_statue_deco01_2sm
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Giran_CH_statue_deco01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Giran_CH_statue_deco01.tga
+map_Ks C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Giran_CH_statue_deco01_sqm.tga
+map_d C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Giran_CH_statue_deco01.tga
+
+newmtl Giran_CH_statue_deco_sq
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Giran_CH_statue_deco.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Giran_CH_statue_deco.tga
+map_Ks C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Giran_CH_statue_deco_sqm.tga
+
+newmtl Manor_B_light02
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_B_light02.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_B_light02.tga
+
+newmtl Manor_B_shelf
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_B_shelf.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_B_shelf.tga
+
+newmtl Manor_B_tong02
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_B_tong02.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_B_tong02.tga
+
+newmtl Manor_B_wheel
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_B_wheel.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_B_wheel.tga
+
+newmtl Manor_B_wood01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_B_wood01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_B_wood01.tga
+
+newmtl Manor_B_wood05
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_B_wood05.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_B_wood05.tga
+
+newmtl Manor_B_wood06
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_B_wood06.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_B_wood06.tga
+
+newmtl Manor_B_wood_deco02
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_B_wood_deco02.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_B_wood_deco02.tga
+
+newmtl Manor_B_wood_deco04
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_B_wood_deco04.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_B_wood_deco04.tga
+
+newmtl Manor_Gi_wall14_f
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_Gi_wall14_f.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_Gi_wall14_f.tga
+
+newmtl Manor_Giran_Port_metal
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_Giran_Port_metal.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_Giran_Port_metal.tga
+
+newmtl Manor_Gl_CV_wall03
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_Gl_CV_wall03.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_Gl_CV_wall03.tga
+
+newmtl Manor_Ht_Vi_tong_1
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_Ht_Vi_tong_1.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_Ht_Vi_tong_1.tga
+
+newmtl Manor_Innadrile_wood
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_Innadrile_wood.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_Innadrile_wood.tga
+
+newmtl Manor_di_w_wall01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_di_w_wall01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_di_w_wall01.tga
+
+newmtl Manor_di_w_wall04
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_di_w_wall04.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_di_w_wall04.tga
+
+newmtl Manor_di_w_wall05_2
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_di_w_wall05_2.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_di_w_wall05_2.tga
+
+newmtl Manor_di_wood_deco03
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_di_wood_deco03.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_di_wood_deco03.tga
+
+newmtl Manor_interior_A_giran_wood04
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_interior_A_giran_wood04.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_interior_A_giran_wood04.tga
+
+newmtl Manor_interior_B_bag01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_interior_B_bag01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_interior_B_bag01.tga
+
+newmtl Manor_interior_B_basket01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_interior_B_basket01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_interior_B_basket01.tga
+
+newmtl Manor_interior_B_book02
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_interior_B_book02.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_interior_B_book02.tga
+
+newmtl Manor_interior_B_carpet03
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_interior_B_carpet03.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_interior_B_carpet03.tga
+
+newmtl Manor_interior_B_counter02
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_interior_B_counter02.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_interior_B_counter02.tga
+
+newmtl Manor_interior_B_drop01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_interior_B_drop01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_interior_B_drop01.tga
+
+newmtl Manor_interior_B_drop07
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_interior_B_drop07.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_interior_B_drop07.tga
+
+newmtl Manor_interior_B_floor01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_interior_B_floor01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_interior_B_floor01.tga
+
+newmtl Manor_interior_B_floor03
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_interior_B_floor03.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_interior_B_floor03.tga
+
+newmtl Manor_interior_B_frame020
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_interior_B_frame020.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_interior_B_frame020.tga
+
+newmtl Manor_interior_B_frame04_1
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_interior_B_frame04-1.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_interior_B_frame04-1.tga
+
+newmtl Manor_interior_B_frame06
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_interior_B_frame06.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_interior_B_frame06.tga
+
+newmtl Manor_interior_B_furniture06_2
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_interior_B_furniture06-2.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_interior_B_furniture06-2.tga
+
+newmtl Manor_interior_B_furniture06_3
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_interior_B_furniture06-3.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_interior_B_furniture06-3.tga
+
+newmtl Manor_interior_B_furniture11
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_interior_B_furniture11.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_interior_B_furniture11.tga
+
+newmtl Manor_interior_B_pot04
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_interior_B_pot04.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_interior_B_pot04.tga
+
+newmtl Manor_interior_B_spellbook
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_interior_B_spellbook.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_interior_B_spellbook.tga
+
+newmtl Manor_interior_B_spellbook1
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_interior_B_spellbook1.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_interior_B_spellbook1.tga
+
+newmtl Manor_interior_B_top01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_interior_B_top01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_interior_B_top01.tga
+
+newmtl Manor_interior_B_wall06
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_interior_B_wall06.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_interior_B_wall06.tga
+
+newmtl Manor_m_roof_deco01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_m_roof_deco01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_m_roof_deco01.tga
+
+newmtl Manor_sp_v_roof07
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\Manor_sp_v_roof07.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\Manor_sp_v_roof07.tga
+
+newmtl O_Alumb_L
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\O_Alumb_L.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\O_Alumb_L.tga
+
+newmtl O_deco_L01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\O_deco_L.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\O_deco_L.tga
+map_d C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\O_deco_L.tga
+
+newmtl O_metal_L
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\O_metal_L.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\O_metal_L.tga
+
+newmtl O_roof05_L
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\O_roof05_L.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\O_roof05_L.tga
+
+newmtl O_rope_L01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\O_rope_L.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\O_rope_L.tga
+
+newmtl O_wall05a_L
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\O_wall05a_L.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\O_wall05a_L.tga
+
+newmtl O_water00_L
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\O_water00_L.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\O_water00_L.tga
+
+newmtl O_wood02_L
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\O_wood02_L.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\O_wood02_L.tga
+
+newmtl O_wood03_L
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\O_wood03_L.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\O_wood03_L.tga
+
+newmtl O_wood05_L
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\O_wood05_L.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\O_wood05_L.tga
+
+newmtl O_wood05a_L
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\O_wood05a_L.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\O_wood05a_L.tga
+
+newmtl O_wood1_L
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\O_wood1_L.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\O_wood1_L.tga
+
+newmtl O_wood2_L
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\O_wood2_L.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\O_wood2_L.tga
+
+newmtl O_wood4_L
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\O_wood4_L.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\O_wood4_L.tga
+
+newmtl O_wood6_L
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\O_wood6_L.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\O_wood6_L.tga
+
+newmtl O_wood9_L
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\O_wood9_L.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\O_wood9_L.tga
+
+newmtl SI_Bulletin01.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\SI_Bulletin01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\SI_Bulletin01.tga
+
+newmtl SI_Bulletin02.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\SI_Bulletin02.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\SI_Bulletin02.tga
+
+newmtl SI_Bulletin03.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\SI_Bulletin03.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\SI_Bulletin03.tga
+
+newmtl SI_Bulletin04.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\SI_Bulletin04.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\SI_Bulletin04.tga
+
+newmtl SI_Bulletin05.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\SI_Bulletin05.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\SI_Bulletin05.tga
+
+newmtl arch01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\arch01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\arch01.tga
+
+newmtl arch12
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\arch12.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\arch12.tga
+
+newmtl interior_A_ch09_2
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_A_ch09-2.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_A_ch09-2.tga
+
+newmtl interior_B_BroomStraw
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_BroomStraw.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_BroomStraw.tga
+
+newmtl interior_B_Broom_Handle
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_Broom_Handle.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_Broom_Handle.tga
+
+newmtl interior_B_bag01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_bag01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_bag01.tga
+
+newmtl interior_B_box01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_box01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_box01.tga
+
+newmtl interior_B_box02
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_box02.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_box02.tga
+
+newmtl interior_B_box03
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_box03.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_box03.tga
+
+newmtl interior_B_box04
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_box04.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_box04.tga
+
+newmtl interior_B_box05_1
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_box05-1.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_box05-1.tga
+
+newmtl interior_B_box05_3
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_box05-3.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_box05-3.tga
+
+newmtl interior_B_box08
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_box08.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_box08.tga
+
+newmtl interior_B_box09
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_box09.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_box09.tga
+
+newmtl interior_B_box10
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_box10.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_box10.tga
+
+newmtl interior_B_box11
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_box11.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_box11.tga
+
+newmtl interior_B_box12_1
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_box12-1.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_box12-1.tga
+
+newmtl interior_B_box15_1
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_box15-1.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_box15-1.tga
+
+newmtl interior_B_ch02_1
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_ch02-1.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_ch02-1.tga
+
+newmtl interior_B_ch02_3
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_ch02-3.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_ch02-3.tga
+
+newmtl interior_B_ch05
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_ch05.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_ch05.tga
+
+newmtl interior_B_ch06_1
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_ch06-1.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_ch06-1.tga
+
+newmtl interior_B_ch07_1
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_ch07-1.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_ch07-1.tga
+
+newmtl interior_B_ch07_1_sp
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_ch07-1.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_ch07-1.tga
+map_Ks C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_ch07-1_sh.tga
+map_d C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_ch07-1.tga
+
+newmtl interior_B_ch08
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_ch08.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_ch08.tga
+
+newmtl interior_B_ch10_1
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_ch10-1.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_ch10-1.tga
+
+newmtl interior_B_ch11
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_ch11.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_ch11.tga
+
+newmtl interior_B_ch12
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_ch12.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_ch12.tga
+
+newmtl interior_B_ch13
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_ch13.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_ch13.tga
+
+newmtl interior_B_ch14
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_ch14.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_ch14.tga
+
+newmtl interior_B_ch15_sp
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_ch15.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_ch15.tga
+map_Ks C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_ch15_sh.tga
+map_d C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_ch15.tga
+
+newmtl interior_B_deco010
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_deco010.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_deco010.tga
+
+newmtl interior_B_drop01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_drop01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_drop01.tga
+
+newmtl interior_B_drop07
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_drop07.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_drop07.tga
+
+newmtl interior_B_drop08
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_drop08.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_drop08.tga
+
+newmtl interior_B_floor03
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_floor03.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_floor03.tga
+
+newmtl interior_B_frame020
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_frame020.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_frame020.tga
+
+newmtl interior_B_fsign02
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_fsign02.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_fsign02.tga
+
+newmtl interior_B_fsign03
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_fsign03.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_fsign03.tga
+
+newmtl interior_B_fsign04
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_fsign04.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_fsign04.tga
+
+newmtl interior_B_furniture01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_furniture01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_furniture01.tga
+
+newmtl interior_B_furniture08
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_furniture08.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_furniture08.tga
+
+newmtl interior_B_furniture10
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_furniture10.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_furniture10.tga
+
+newmtl interior_B_paper04_1
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_paper04-1.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_paper04-1.tga
+
+newmtl interior_B_pot01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_pot01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_pot01.tga
+
+newmtl interior_B_pot32
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_pot32.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_pot32.tga
+
+newmtl interior_B_sign02
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_sign02.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_sign02.tga
+
+newmtl interior_B_sign03
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_sign03.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_sign03.tga
+
+newmtl interior_B_sign04
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_sign04.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_sign04.tga
+
+newmtl interior_B_tong01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_tong01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_tong01.tga
+
+newmtl interior_B_tong02
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_tong02.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_tong02.tga
+
+newmtl interior_B_top01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_top01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_top01.tga
+
+newmtl interior_B_wall01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_wall01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_wall01.tga
+
+newmtl interior_B_wall02
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_wall02.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_wall02.tga
+
+newmtl interior_B_wall03
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_wall03.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_wall03.tga
+
+newmtl interior_B_wall04
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_wall04.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_wall04.tga
+
+newmtl interior_B_wall04_1
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_wall04-1.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_wall04-1.tga
+
+newmtl interior_B_wood01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_wood01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_wood01.tga
+
+newmtl sp__ch_deco
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp _ch_deco.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp _ch_deco.tga
+
+newmtl sp_ch_deco01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_ch_deco01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_ch_deco01.tga
+
+newmtl sp_ch_deco03
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_ch_deco03.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_ch_deco03.tga
+
+newmtl sp_ch_deco09
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_ch_deco09.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_ch_deco09.tga
+
+newmtl sp_ch_wall
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_ch_wall.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_ch_wall.tga
+
+newmtl sp_ch_wall01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_ch_wall01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_ch_wall01.tga
+
+newmtl sp_ch_wall02
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_ch_wall02.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_ch_wall02.tga
+
+newmtl sp_ch_wall03
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_ch_wall03.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_ch_wall03.tga
+
+newmtl sp_ch_wall04
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_ch_wall04.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_ch_wall04.tga
+
+newmtl sp_ch_wall06
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_ch_wall06.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_ch_wall06.tga
+
+newmtl sp_ch_wall07
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_ch_wall07.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_ch_wall07.tga
+
+newmtl sp_ch_win
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_ch_win.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_ch_win.tga
+
+newmtl sp_ch_win01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_ch_win01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_ch_win01.tga
+
+newmtl sp_floor02
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_floor02.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_floor02.tga
+
+newmtl sp_metal
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_metal.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_metal.tga
+
+newmtl sp_roof02
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_roof02.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_roof02.tga
+
+newmtl sp_rope_m
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_rope.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_rope.tga
+
+newmtl sp_tent_m
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_tent.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_tent.tga
+
+newmtl sp_top01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_top01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_top01.tga
+
+newmtl sp_top02
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_top02.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_top02.tga
+
+newmtl sp_top03
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_top03.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_top03.tga
+
+newmtl sp_v_chy01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_chy01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_chy01.tga
+
+newmtl sp_v_door01.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_door01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_door01.tga
+
+newmtl sp_v_door02
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_door02.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_door02.tga
+
+newmtl sp_v_door04
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_door04.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_door04.tga
+
+newmtl sp_v_door04.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_door04.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_door04.tga
+
+newmtl sp_v_door_a.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_door_a.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_door_a.tga
+
+newmtl sp_v_floor.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_floor.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_floor.tga
+
+newmtl sp_v_floor.002
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_floor.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_floor.tga
+
+newmtl sp_v_roof01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_roof01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_roof01.tga
+
+newmtl sp_v_roof03.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_roof03.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_roof03.tga
+
+newmtl sp_v_roof03_m
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_roof03.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_roof03.tga
+
+newmtl sp_v_roof05.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_roof05.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_roof05.tga
+
+newmtl sp_v_roof05.002
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_roof05.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_roof05.tga
+
+newmtl sp_v_roof06.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_roof06.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_roof06.tga
+
+newmtl sp_v_roof06.002
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_roof06.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_roof06.tga
+
+newmtl sp_v_roof07.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_roof07.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_roof07.tga
+
+newmtl sp_v_roof07.002
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_roof07.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_roof07.tga
+
+newmtl sp_v_stair02.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_stair02.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_stair02.tga
+
+newmtl sp_v_stair02.002
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_stair02.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_stair02.tga
+
+newmtl sp_v_wall01a
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wall01a.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wall01a.tga
+
+newmtl sp_v_wall01a.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wall01a.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wall01a.tga
+
+newmtl sp_v_wall05.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wall05.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wall05.tga
+
+newmtl sp_v_wall05a.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wall05a.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wall05a.tga
+
+newmtl sp_v_wall06a.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wall06a.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wall06a.tga
+
+newmtl sp_v_wall07.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wall07.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wall07.tga
+
+newmtl sp_v_wall07a.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wall07a.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wall07a.tga
+
+newmtl sp_v_wall07b_light.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wall07b.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wall07b.tga
+
+newmtl sp_v_wall07c
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wall07c.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wall07c.tga
+
+newmtl sp_v_wall07c.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wall07c.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wall07c.tga
+
+newmtl sp_v_wall08
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wall08.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wall08.tga
+
+newmtl sp_v_wall12
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wall12.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wall12.tga
+
+newmtl sp_v_wall12b
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wall12b.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wall12b.tga
+
+newmtl sp_v_wall12c
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wall12c.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wall12c.tga
+
+newmtl sp_v_wall12d
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wall12d.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wall12d.tga
+
+newmtl sp_v_wall13
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wall13.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wall13.tga
+
+newmtl sp_v_wall13_win
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wall13_win.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wall13_win.tga
+
+newmtl sp_v_wall13_win01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wall13_win01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wall13_win01.tga
+
+newmtl sp_v_wall13_win01_light
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wall13_win01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wall13_win01.tga
+
+newmtl sp_v_wall13_win01_light.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wall13_win01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wall13_win01.tga
+
+newmtl sp_v_wall13_wina_2s
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wall13_wina.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wall13_wina.tga
+
+newmtl sp_v_wall13a
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wall13a.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wall13a.tga
+
+newmtl sp_v_wall13b
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wall13b.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wall13b.tga
+
+newmtl sp_v_wall13b.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wall13b.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wall13b.tga
+
+newmtl sp_v_wall13c
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wall13c.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wall13c.tga
+
+newmtl sp_v_win01_light.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_win01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_win01.tga
+
+newmtl sp_v_win03.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_win03.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_win03.tga
+
+newmtl sp_v_win06
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_win06.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_win06.tga
+
+newmtl sp_v_wood.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wood.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wood.tga
+
+newmtl sp_v_wood.002
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wood.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wood.tga
+
+newmtl sp_v_wood02.001
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wood02.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wood02.tga
+
+newmtl sp_v_wood02.002
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wood02.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wood02.tga
+
+newmtl sp_v_wood03.002
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\sp_v_wood03.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\sp_v_wood03.tga
+
+newmtl z_arm03
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_arm03.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_arm03.tga
+
+newmtl z_arm08
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_arm08.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_arm08.tga
+
+newmtl z_arm14
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_arm14.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_arm14.tga
+
+newmtl z_arm19
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_arm19.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_arm19.tga
+
+newmtl z_arm20
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_arm20.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_arm20.tga
+
+newmtl z_arm21
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_arm21.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_arm21.tga
+
+newmtl z_arm22
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_arm22.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_arm22.tga
+
+newmtl z_candle02
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_candle02.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_candle02.tga
+
+newmtl z_carpet01
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_carpet01.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_carpet01.tga
+
+newmtl z_ch01_2
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_ch01-2.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_ch01-2.tga
+
+newmtl z_ch01_3
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_ch01-3.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_ch01-3.tga
+
+newmtl z_ch101
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_A_ch10.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_A_ch10.tga
+
+newmtl z_chain02
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_chain02.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_chain02.tga
+
+newmtl z_paper02
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_paper02.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_paper02.tga
+
+newmtl z_paper06
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_paper06.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_paper06.tga
+
+newmtl z_paper08
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_paper08.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_paper08.tga
+
+newmtl z_paper15
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\maps\interior_B_paper15.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\maps\\interior_B_paper15.tga
