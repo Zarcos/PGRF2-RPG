@@ -63,6 +63,8 @@ public class App extends SimpleApplication implements ActionListener{
         strafeSpeed = 20f;
         headHeight = 3f;
         
+        
+        
         /** Player Model */
         Box box1 = new Box(1f, 1f, 1f);
         playerModel = new Geometry("Box", box1);
@@ -89,9 +91,10 @@ public class App extends SimpleApplication implements ActionListener{
         landscape = new RigidBodyControl(sceneShape, 0);
         map.addControl(landscape);
         
-        player = new BetterCharacterControl(1f, 7f, 5f);
+        player = new BetterCharacterControl(1f, 7f, 0f);
+        player.setPhysicsDamping(1);
         player.setJumpForce(new Vector3f(0, 5, 0));
-        player.setGravity(new Vector3f(0, 1, 0));
+        player.setGravity(new Vector3f(0, 10, 0));
         player.warp(new Vector3f(0, 6, 0));
         
         rootNode.attachChild(map);
@@ -154,13 +157,15 @@ public class App extends SimpleApplication implements ActionListener{
         AmbientLight ambient = new AmbientLight();
         ambient.setColor(new ColorRGBA(0.2f, 0.2f, 0.2f, 1f));
         rootNode.addLight(ambient);
-
-        DirectionalLightShadowRenderer dlsr = new DirectionalLightShadowRenderer(assetManager, 4092, 3);
+        
+        
+        DirectionalLightShadowRenderer dlsr = new DirectionalLightShadowRenderer(assetManager, 2048, 3);
         dlsr.setLight(sun);
-        dlsr.setEdgeFilteringMode(EdgeFilteringMode.PCF8);
+        dlsr.setEdgeFilteringMode(EdgeFilteringMode.PCFPOISSON);
         dlsr.setShadowCompareMode(CompareMode.Software);
         viewPort.addProcessor(dlsr);
         
+        //Nastavit lepší hodnoty
         FilterPostProcessor fpp = new FilterPostProcessor(assetManager);
         SSAOFilter ssaoFilter = new SSAOFilter(2.94f, 11.92f, 0.33f, 0.61f);
         fpp.addFilter(ssaoFilter);
