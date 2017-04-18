@@ -10,8 +10,6 @@ import com.jme3.app.SimpleApplication;
 import com.jme3.app.state.AbstractAppState;
 import com.jme3.app.state.AppStateManager;
 import com.jme3.input.ChaseCamera;
-import com.jme3.input.FlyByCamera;
-import java.awt.event.MouseMotionAdapter;
 
 /**
  *

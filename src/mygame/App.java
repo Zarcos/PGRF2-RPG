@@ -18,8 +18,10 @@ public class App extends SimpleApplication{
 
     @Override
     public void simpleInitApp() {
+        
         this.getFlyByCamera().setEnabled(false);
         this.stateManager.attach(new Scene());
+        this.stateManager.attach(new SkyControler());
         this.stateManager.attach(new PlayerControler());
         this.stateManager.attach(new CameraControler());
         this.stateManager.attach(new Control());

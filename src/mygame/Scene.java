@@ -18,18 +18,12 @@ import com.jme3.bullet.util.CollisionShapeFactory;
 import com.jme3.light.AmbientLight;
 import com.jme3.light.DirectionalLight;
 import com.jme3.material.Material;
-import com.jme3.material.RenderState;
 import com.jme3.math.ColorRGBA;
 import com.jme3.math.Vector3f;
 import com.jme3.post.FilterPostProcessor;
-import com.jme3.post.filters.LightScatteringFilter;
 import com.jme3.renderer.ViewPort;
 import com.jme3.renderer.queue.RenderQueue;
-import com.jme3.scene.Geometry;
 import com.jme3.scene.Node;
-import com.jme3.scene.Spatial;
-import com.jme3.scene.shape.Box;
-import com.jme3.scene.shape.Quad;
 import com.jme3.shadow.DirectionalLightShadowRenderer;
 import com.jme3.shadow.EdgeFilteringMode;
 import com.jme3.terrain.geomipmap.TerrainLodControl;
@@ -55,9 +49,10 @@ public class Scene extends AbstractAppState{
     private DirectionalLight sun;
     private FilterPostProcessor fpp;
     private DirectionalLightShadowRenderer shadow;
-    private SunControler sunControler;
+    //private SunControler sunControler;
     private AmbientLight ambient;
-    private SkyControler skyControler;
+    //private SkyControler skyControler;
+    
     
     public Node scene;
     public BulletAppState physics;
@@ -183,25 +178,32 @@ public class Scene extends AbstractAppState{
     private void initLight() {
         
         
-        sun = new DirectionalLight();
+       /* sun = new DirectionalLight();
         sun.setColor(ColorRGBA.White);
         sun.setDirection(new Vector3f(-1, -1, 0).normalize());
-        rootNode.addLight(sun);
+        rootNode.addLight(sun);*/
+      
     }
     
     private void initShadow() {
         
-        ambient = new AmbientLight(new ColorRGBA(0.5f, 0.5f, 0.5f, 1));
+        /*ambient = new AmbientLight(new ColorRGBA(0.5f, 0.5f, 0.5f, 1));
         rootNode.addLight(ambient);
         
-        shadow = new DirectionalLightShadowRenderer(assetManager, 2048, 3);
+        shadow = new DirectionalLightShadowRenderer(assetManager, 4096, 4);
         shadow.setLight(sun);
-        shadow.setEdgeFilteringMode(EdgeFilteringMode.PCF8);
-        viewPort.addProcessor(shadow);
+        shadow.setEdgeFilteringMode(EdgeFilteringMode.PCFPOISSON);
+        shadow.setShadowZExtend(1200f);
+        viewPort.addProcessor(shadow);*/
+
     }
 
     private void initSunAndSky() {
         
+        //SkyControler sky = new SkyControler(ambient, sun);
+        
+        
+        /*
         sunControler = new SunControler(sun, app.getCamera());
         skyControler = new SkyControler(sunControler, app.getCamera());
         
@@ -216,7 +218,7 @@ public class Scene extends AbstractAppState{
         sunQuad.setMaterial(sunMat);
         sunQuad.addControl(sunControler);
         
-        Geometry sky = new Geometry("sky", new Box(1100f, 1100f, 1100f));
+        Geometry sky = new Geometry("sky", new Box(10f, 10f, 10f));
         sky.setQueueBucket(RenderQueue.Bucket.Sky);
         sky.setCullHint(Spatial.CullHint.Never);
         sky.setShadowMode(RenderQueue.ShadowMode.Off);
@@ -226,16 +228,18 @@ public class Scene extends AbstractAppState{
         sky.addControl(skyControler);
         rootNode.attachChild(sky);
         rootNode.attachChild(sunQuad);
+        */
     }
 
     private void initWater() {
-        WaterFilter water = new WaterFilter(rootNode, sun.getDirection());
+        /*WaterFilter water = new WaterFilter(rootNode, sun.getDirection());
         water.setWaterHeight(-4f);
-        fpp.addFilter(water);
+        fpp.addFilter(water);*/
     }
 
-    @Override
+    /*@Override
     public void update(float tpf) {
+        
         float amb = (sunControler.getHeight()+1)/2;
         float shw = sunControler.getHeight();
         if(shw>0.7){
@@ -244,12 +248,9 @@ public class Scene extends AbstractAppState{
         if(shw<=0.7 && shw>=0){
             shadow.setShadowIntensity(shw);
         }
-        if(shw<0){
-            shadow.setShadowIntensity(0f);
-        }
         if(amb>0.1){
             ambient.setColor(new ColorRGBA(amb, amb, amb, 1f));
         }
-    }
+    }*/
     
 }
