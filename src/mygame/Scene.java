@@ -87,7 +87,7 @@ public class Scene extends AbstractAppState{
        
        vesnice.setShadowMode(RenderQueue.ShadowMode.CastAndReceive);
        misc.setShadowMode(RenderQueue.ShadowMode.CastAndReceive);
-       terrain.setShadowMode(RenderQueue.ShadowMode.CastAndReceive);
+       terrain.setShadowMode(RenderQueue.ShadowMode.Receive);
        scene.attachChild(vesnice);
        scene.attachChild(misc);
        scene.attachChild(terrain);
@@ -178,19 +178,21 @@ public class Scene extends AbstractAppState{
     private void initLight() {
         
         
-       /* sun = new DirectionalLight();
+        /*sun = new DirectionalLight();
         sun.setColor(ColorRGBA.White);
         sun.setDirection(new Vector3f(-1, -1, 0).normalize());
-        rootNode.addLight(sun);*/
+        rootNode.addLight(sun);
+       
+        ambient = new AmbientLight(new ColorRGBA(0.5f, 0.5f, 0.5f, 1));
+        rootNode.addLight(ambient);*/
       
     }
     
     private void initShadow() {
         
-        /*ambient = new AmbientLight(new ColorRGBA(0.5f, 0.5f, 0.5f, 1));
-        rootNode.addLight(ambient);
         
-        shadow = new DirectionalLightShadowRenderer(assetManager, 4096, 4);
+        
+        /*shadow = new DirectionalLightShadowRenderer(assetManager, 4096, 4);
         shadow.setLight(sun);
         shadow.setEdgeFilteringMode(EdgeFilteringMode.PCFPOISSON);
         shadow.setShadowZExtend(1200f);

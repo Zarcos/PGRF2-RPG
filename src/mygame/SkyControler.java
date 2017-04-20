@@ -16,8 +16,12 @@ import com.jme3.light.Light;
 import com.jme3.math.ColorRGBA;
 import com.jme3.math.Vector3f;
 import com.jme3.renderer.Camera;
+import com.jme3.renderer.ViewPort;
 import com.jme3.scene.Node;
-import com.jme3.scene.Spatial;
+import com.jme3.shadow.DirectionalLightShadowRenderer;
+import com.jme3.shadow.EdgeFilteringMode;
+import com.sun.javafx.animation.TickCalculation;
+import jme3utilities.TimeOfDay;
 import jme3utilities.sky.SkyControl;
 
 /**
@@ -27,12 +31,15 @@ import jme3utilities.sky.SkyControl;
 public class SkyControler extends AbstractAppState{
     
     private SkyControl skyControl;
+    private TimeOfDay timeOfDay;
     private SimpleApplication app;
     private Camera cam;
     private AssetManager assetManager;
     private Node rootNode;
+    private ViewPort viewPort;
     private AmbientLight ambient;
     private DirectionalLight sun;
+    private DirectionalLightShadowRenderer shadow;
     private final boolean starMotion = true;
     private final boolean bottomDome = true;
     
@@ -45,27 +52,38 @@ public class SkyControler extends AbstractAppState{
         this.cam = this.app.getCamera();
         this.assetManager = this.app.getAssetManager();
         this.rootNode = this.app.getRootNode();
+        this.viewPort = app.getViewPort();
+        
         
         sun = new DirectionalLight();
-        sun.setColor(ColorRGBA.White);
+        
+        shadow = new DirectionalLightShadowRenderer(assetManager, 4096, 3);
+        shadow.setLight(sun);
+        shadow.setEdgeFilteringMode(EdgeFilteringMode.PCFPOISSON);
+        viewPort.addProcessor(shadow);
         
         ambient = new AmbientLight(new ColorRGBA(0.5f, 0.5f, 0.5f, 1));
         rootNode.addLight(ambient);
-        
+
         skyControl = new SkyControl(assetManager, cam, 0.9f, starMotion, bottomDome);
+        timeOfDay = new TimeOfDay(12);
+        stateManager.attach(timeOfDay);
+        timeOfDay.setRate(1000f);
         rootNode.addControl(skyControl);
         skyControl.getUpdater().setMainLight(sun);
         skyControl.getUpdater().setAmbientLight(ambient);
+        skyControl.getUpdater().addViewPort(viewPort);
         skyControl.getSunAndStars().setHour(12);
-        skyControl.getSunAndStars().setObserverLatitude(0.9f);
+        skyControl.getSunAndStars().setObserverLatitude(0.1f);
         skyControl.setCloudiness(0.8f);
         skyControl.setEnabled(true);
-        
     }
 
     @Override
     public void update(float tpf) {
-        
+        float hour = timeOfDay.hour();
+        skyControl.getSunAndStars().setHour(hour);
+        skyControl.setCloudsRate(hour);
     }
     
     
