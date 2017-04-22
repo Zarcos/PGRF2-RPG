@@ -1,10 +1,10 @@
 package App;
 
 import Scene.Scene;
-import Scene.CameraControler;
+import Scene.Camera;
 import Player.Control;
 import Player.PlayerControler;
-import Scene.SkyControler;
+import Scene.Sky;
 import com.jme3.app.SimpleApplication;
 
 /**
@@ -13,22 +13,22 @@ import com.jme3.app.SimpleApplication;
  *
  * @author normenhansen
  */
-public class App extends SimpleApplication{
+public class App extends SimpleApplication {
 
     public static void main(String[] args) {
         App app = new App();
         app.start();
-        
+
     }
 
     @Override
     public void simpleInitApp() {
-        
+
         this.getFlyByCamera().setEnabled(false);
         this.stateManager.attach(new Scene());
-        this.stateManager.attach(new SkyControler());
+        this.stateManager.attach(new Sky());
         this.stateManager.attach(new PlayerControler());
-        this.stateManager.attach(new CameraControler());
+        this.stateManager.attach(new Camera());
         this.stateManager.attach(new Control());
     }
 }

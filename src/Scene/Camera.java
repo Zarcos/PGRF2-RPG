@@ -17,8 +17,8 @@ import com.jme3.input.ChaseCamera;
  *
  * @author Zarcos
  */
-public class CameraControler extends AbstractAppState{
-    
+public class Camera extends AbstractAppState {
+
     private SimpleApplication app;
     private AppStateManager stateManager;
     private Player player;
@@ -41,5 +41,5 @@ public class CameraControler extends AbstractAppState{
         cam.setDragToRotate(false);
         cam.setInvertVerticalAxis(true);
     }
-    
+
 }

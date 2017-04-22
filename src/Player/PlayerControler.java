@@ -6,7 +6,6 @@
 package Player;
 
 import Scene.Scene;
-import Player.Player;
 import com.jme3.app.Application;
 import com.jme3.app.SimpleApplication;
 import com.jme3.app.state.AbstractAppState;
@@ -14,17 +13,15 @@ import com.jme3.app.state.AppStateManager;
 import com.jme3.asset.AssetManager;
 import com.jme3.bullet.BulletAppState;
 import com.jme3.bullet.control.BetterCharacterControl;
-import com.jme3.bullet.control.CharacterControl;
 import com.jme3.math.Vector3f;
 import com.jme3.scene.Node;
-import com.jme3.scene.control.AbstractControl;
 
 /**
  *
  * @author Zarcos
  */
-public class PlayerControler extends AbstractAppState{
-    
+public class PlayerControler extends AbstractAppState {
+
     private SimpleApplication app;
     private AppStateManager stateManager;
     private AssetManager assetManager;
@@ -37,18 +34,18 @@ public class PlayerControler extends AbstractAppState{
         this.app = (SimpleApplication) app;
         this.stateManager = this.app.getStateManager();
         this.assetManager = this.app.getAssetManager();
-        this.physics =this.stateManager.getState(Scene.class).physics;
+        this.physics = this.stateManager.getState(Scene.class).physics;
         initPlayerControler();
     }
 
     private void initPlayerControler() {
         player = new Player();
         player.model = new Node();
-        
+
         player.playerPhys = new BetterCharacterControl(1f, 5f, 2f);
         player.playerPhys.setJumpForce(new Vector3f(0f, 5f, 0f));
         physics.setDebugEnabled(false);
-        
+
         player.attachChild(player.model);
         player.addControl(player.playerPhys);
         this.app.getRootNode().attachChild(player);
@@ -56,5 +53,5 @@ public class PlayerControler extends AbstractAppState{
         physics.getPhysicsSpace().add(player.playerPhys);
         player.playerPhys.warp(new Vector3f(0f, 15f, 0f));
     }
-    
+
 }

@@ -12,7 +12,8 @@ import com.jme3.scene.Node;
  *
  * @author Zarcos
  */
-public class Player extends Node{
+public class Player extends Node {
+
     public BetterCharacterControl playerPhys;
     public Node model;
 }

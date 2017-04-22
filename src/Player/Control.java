@@ -5,8 +5,6 @@
  */
 package Player;
 
-import Player.PlayerControler;
-import Player.Player;
 import com.jme3.app.Application;
 import com.jme3.app.SimpleApplication;
 import com.jme3.app.state.AbstractAppState;
@@ -22,13 +20,13 @@ import com.jme3.math.Vector3f;
  *
  * @author Zarcos
  */
-public class Control extends AbstractAppState implements ActionListener{
-    
+public class Control extends AbstractAppState implements ActionListener {
+
     private SimpleApplication app;
-    private AppStateManager   stateManager;
-    private AssetManager      assetManager;
-    private InputManager      inputManager;
-    private Player            player;
+    private AppStateManager stateManager;
+    private AssetManager assetManager;
+    private InputManager inputManager;
+    private Player player;
     private final Vector3f walkDirection;
     private final Vector3f camDir;
     private final Vector3f camLeft;
@@ -66,7 +64,7 @@ public class Control extends AbstractAppState implements ActionListener{
         if (right) {
             walkDirection.addLocal(camLeft.negate());
         }
-        if(foward) {
+        if (foward) {
             walkDirection.addLocal(camDir);
         }
         if (backward) {
@@ -75,25 +73,25 @@ public class Control extends AbstractAppState implements ActionListener{
         if (jump) {
             player.playerPhys.jump();
         }
-        
+
         player.playerPhys.setWalkDirection(walkDirection.multLocal(1));
         player.playerPhys.setViewDirection(camDir);
     }
 
-    private void setUpKeys(){
+    private void setUpKeys() {
         inputManager.addMapping("Up", new KeyTrigger(KeyInput.KEY_W));
         inputManager.addMapping("Down", new KeyTrigger(KeyInput.KEY_S));
         inputManager.addMapping("Left", new KeyTrigger(KeyInput.KEY_A));
         inputManager.addMapping("Right", new KeyTrigger(KeyInput.KEY_D));
         inputManager.addMapping("Space", new KeyTrigger(KeyInput.KEY_SPACE));
-        
+
         inputManager.addListener(this, "Up");
         inputManager.addListener(this, "Down");
         inputManager.addListener(this, "Left");
         inputManager.addListener(this, "Right");
         inputManager.addListener(this, "Space");
     }
-    
+
     @Override
     public void onAction(String binding, boolean isPressed, float tpf) {
         switch (binding) {
@@ -116,5 +114,5 @@ public class Control extends AbstractAppState implements ActionListener{
                 break;
         }
     }
-    
+
 }
