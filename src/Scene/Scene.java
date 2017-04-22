@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mygame;
+package Scene;
 
 import com.jme3.app.Application;
 import com.jme3.app.SimpleApplication;
@@ -46,12 +46,10 @@ public class Scene extends AbstractAppState{
     private Node rootNode;
     private TerrainQuad terrain;
     private ViewPort viewPort;
-    private DirectionalLight sun;
-    private FilterPostProcessor fpp;
-    private DirectionalLightShadowRenderer shadow;
-    //private SunControler sunControler;
-    private AmbientLight ambient;
-    //private SkyControler skyControler;
+    public FilterPostProcessor fpp;
+    public DirectionalLight sun;
+    public AmbientLight ambient;
+    public DirectionalLightShadowRenderer shadow;
     
     
     public Node scene;
@@ -82,7 +80,6 @@ public class Scene extends AbstractAppState{
        
        initLight();
        initShadow();
-       initSunAndSky();
        initWater();
        
        vesnice.setShadowMode(RenderQueue.ShadowMode.CastAndReceive);
@@ -178,81 +175,26 @@ public class Scene extends AbstractAppState{
     private void initLight() {
         
         
-        /*sun = new DirectionalLight();
-        sun.setColor(ColorRGBA.White);
-        sun.setDirection(new Vector3f(-1, -1, 0).normalize());
+        sun = new DirectionalLight();
         rootNode.addLight(sun);
        
-        ambient = new AmbientLight(new ColorRGBA(0.5f, 0.5f, 0.5f, 1));
-        rootNode.addLight(ambient);*/
+        ambient = new AmbientLight();
+        rootNode.addLight(ambient);
       
     }
     
     private void initShadow() {
         
-        
-        
-        /*shadow = new DirectionalLightShadowRenderer(assetManager, 4096, 4);
+        shadow = new DirectionalLightShadowRenderer(assetManager, 4096, 2);
         shadow.setLight(sun);
         shadow.setEdgeFilteringMode(EdgeFilteringMode.PCFPOISSON);
-        shadow.setShadowZExtend(1200f);
-        viewPort.addProcessor(shadow);*/
+        viewPort.addProcessor(shadow);
 
-    }
-
-    private void initSunAndSky() {
-        
-        //SkyControler sky = new SkyControler(ambient, sun);
-        
-        
-        /*
-        sunControler = new SunControler(sun, app.getCamera());
-        skyControler = new SkyControler(sunControler, app.getCamera());
-        
-        Geometry sunQuad = new Geometry("Sun", new Quad(1.5f, 1.5f));
-        sunQuad.setQueueBucket(RenderQueue.Bucket.Sky);
-        sunQuad.setCullHint(Spatial.CullHint.Never);
-        sunQuad.setShadowMode(RenderQueue.ShadowMode.Off);
-        
-        Material sunMat = new Material(assetManager, "Common/MatDefs/Misc/Unshaded.j3md");
-        sunMat.getAdditionalRenderState().setBlendMode(RenderState.BlendMode.Alpha);
-        sunMat.setTexture("ColorMap", assetManager.loadTexture("Textures/Terrain/sun.png"));
-        sunQuad.setMaterial(sunMat);
-        sunQuad.addControl(sunControler);
-        
-        Geometry sky = new Geometry("sky", new Box(10f, 10f, 10f));
-        sky.setQueueBucket(RenderQueue.Bucket.Sky);
-        sky.setCullHint(Spatial.CullHint.Never);
-        sky.setShadowMode(RenderQueue.ShadowMode.Off);
-        Material skyMat = new Material(assetManager, "Common/MatDefs/Misc/Unshaded.j3md");
-        skyMat.getAdditionalRenderState().setFaceCullMode(RenderState.FaceCullMode.Off);
-        sky.setMaterial(skyMat);
-        sky.addControl(skyControler);
-        rootNode.attachChild(sky);
-        rootNode.attachChild(sunQuad);
-        */
     }
 
     private void initWater() {
-        /*WaterFilter water = new WaterFilter(rootNode, sun.getDirection());
-        water.setWaterHeight(-4f);
-        fpp.addFilter(water);*/
+        WaterFilter water = new WaterFilter(rootNode, sun.getDirection());
+        water.setWaterHeight(-4.1f);
+        fpp.addFilter(water);
     }
-
-    /*@Override
-    public void update(float tpf) {
-        
-        float amb = (sunControler.getHeight()+1)/2;
-        float shw = sunControler.getHeight();
-        if(shw>0.7){
-            shadow.setShadowIntensity(0.7f);
-        }
-        if(shw<=0.7 && shw>=0){
-            shadow.setShadowIntensity(shw);
-        }
-        if(amb>0.1){
-            ambient.setColor(new ColorRGBA(amb, amb, amb, 1f));
-        }
-    }*/
-    
 }

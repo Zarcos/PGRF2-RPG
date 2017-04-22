@@ -1,5 +1,10 @@
-package mygame;
+package App;
 
+import Scene.Scene;
+import Scene.CameraControler;
+import Player.Control;
+import Player.PlayerControler;
+import Scene.SkyControler;
 import com.jme3.app.SimpleApplication;
 
 /**

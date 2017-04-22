@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mygame;
+package Scene;
 
 import com.jme3.app.Application;
 import com.jme3.app.SimpleApplication;
@@ -12,15 +12,12 @@ import com.jme3.app.state.AppStateManager;
 import com.jme3.asset.AssetManager;
 import com.jme3.light.AmbientLight;
 import com.jme3.light.DirectionalLight;
-import com.jme3.light.Light;
 import com.jme3.math.ColorRGBA;
-import com.jme3.math.Vector3f;
 import com.jme3.renderer.Camera;
 import com.jme3.renderer.ViewPort;
 import com.jme3.scene.Node;
 import com.jme3.shadow.DirectionalLightShadowRenderer;
 import com.jme3.shadow.EdgeFilteringMode;
-import com.sun.javafx.animation.TickCalculation;
 import jme3utilities.TimeOfDay;
 import jme3utilities.sky.SkyControl;
 
@@ -52,29 +49,22 @@ public class SkyControler extends AbstractAppState{
         this.cam = this.app.getCamera();
         this.assetManager = this.app.getAssetManager();
         this.rootNode = this.app.getRootNode();
-        this.viewPort = app.getViewPort();
+        this.viewPort = this.app.getViewPort();
+        this.sun = this.app.getStateManager().getState(Scene.class).sun;
+        this.ambient = this.app.getStateManager().getState(Scene.class).ambient;
+        this.shadow = this.app.getStateManager().getState(Scene.class).shadow;
         
         
-        sun = new DirectionalLight();
-        
-        shadow = new DirectionalLightShadowRenderer(assetManager, 4096, 3);
-        shadow.setLight(sun);
-        shadow.setEdgeFilteringMode(EdgeFilteringMode.PCFPOISSON);
-        viewPort.addProcessor(shadow);
-        
-        ambient = new AmbientLight(new ColorRGBA(0.5f, 0.5f, 0.5f, 1));
-        rootNode.addLight(ambient);
-
         skyControl = new SkyControl(assetManager, cam, 0.9f, starMotion, bottomDome);
-        timeOfDay = new TimeOfDay(12);
+        timeOfDay = new TimeOfDay(15);
         stateManager.attach(timeOfDay);
-        timeOfDay.setRate(1000f);
+        timeOfDay.setRate(20f);
         rootNode.addControl(skyControl);
         skyControl.getUpdater().setMainLight(sun);
         skyControl.getUpdater().setAmbientLight(ambient);
+        skyControl.getUpdater().addShadowRenderer(shadow);
         skyControl.getUpdater().addViewPort(viewPort);
-        skyControl.getSunAndStars().setHour(12);
-        skyControl.getSunAndStars().setObserverLatitude(0.1f);
+        skyControl.getSunAndStars().setObserverLatitude(0.9f);
         skyControl.setCloudiness(0.8f);
         skyControl.setEnabled(true);
     }
@@ -85,7 +75,9 @@ public class SkyControler extends AbstractAppState{
         skyControl.getSunAndStars().setHour(hour);
         skyControl.setCloudsRate(hour);
     }
-    
-    
+
+    public DirectionalLight getSun() {
+        return sun;
+    }
     
 }

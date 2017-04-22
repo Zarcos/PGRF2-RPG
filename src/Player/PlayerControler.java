@@ -3,8 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mygame;
+package Player;
 
+import Scene.Scene;
+import Player.Player;
 import com.jme3.app.Application;
 import com.jme3.app.SimpleApplication;
 import com.jme3.app.state.AbstractAppState;
@@ -13,9 +15,9 @@ import com.jme3.asset.AssetManager;
 import com.jme3.bullet.BulletAppState;
 import com.jme3.bullet.control.BetterCharacterControl;
 import com.jme3.bullet.control.CharacterControl;
-import com.jme3.bullet.objects.PhysicsCharacter;
 import com.jme3.math.Vector3f;
 import com.jme3.scene.Node;
+import com.jme3.scene.control.AbstractControl;
 
 /**
  *
@@ -43,11 +45,8 @@ public class PlayerControler extends AbstractAppState{
         player = new Player();
         player.model = new Node();
         
-       
-        
-        player.playerPhys = new BetterCharacterControl(1f, 5f, 80f);
-        player.playerPhys.setJumpForce(new Vector3f(0f, 40f, 0f));
-        player.playerPhys.setGravity(new Vector3f(0f, -20f, 0f));
+        player.playerPhys = new BetterCharacterControl(1f, 5f, 2f);
+        player.playerPhys.setJumpForce(new Vector3f(0f, 5f, 0f));
         physics.setDebugEnabled(false);
         
         player.attachChild(player.model);
