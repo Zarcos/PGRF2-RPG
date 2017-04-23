@@ -1,0 +1,150 @@
+# Blender MTL File: 'None'
+# Material Count: 12
+
+newmtl msbark1
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\msbark1.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\msbark1.tga
+
+newmtl msbark2
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\msbark2.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\msbark2.tga
+
+newmtl msbarkrt1
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\msbarkrt1.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\msbarkrt1.tga
+
+newmtl msbarkrt2
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\msbarkrt2.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\msbarkrt2.tga
+
+newmtl msdzleaf1_1
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\msdzleaf1.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\msdzleaf1.tga
+map_d C:\\Users\\zarco\\Documents\\3dsMax\\export\\msdzleaf1.tga
+
+newmtl msforestbark1
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\msforestbark1.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\msforestbark1.tga
+
+newmtl msforestbark2
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\msforestbark2.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\msforestbark2.tga
+
+newmtl msforestbarkrt1
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\msforestbarkrt1.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\msforestbarkrt1.tga
+
+newmtl msforestbarkrt2
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\msforestbarkrt2.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\msforestbarkrt2.tga
+
+newmtl msforestleaf1_1
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\msforestleaf1.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\msforestleaf1.tga
+map_d C:\\Users\\zarco\\Documents\\3dsMax\\export\\msforestleaf1.tga
+
+newmtl msleaf1_1
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\msleaf1.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\msleaf1.tga
+map_d C:\\Users\\zarco\\Documents\\3dsMax\\export\\msleaf1.tga
+
+newmtl msleaf3_1
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:\Users\zarco\Documents\3dsMax\export\msleaf3.tga
+map_Ka C:\\Users\\zarco\\Documents\\3dsMax\\export\\msleaf3.tga
+map_d C:\\Users\\zarco\\Documents\\3dsMax\\export\\msleaf3.tga

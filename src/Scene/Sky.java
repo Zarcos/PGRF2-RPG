@@ -51,13 +51,14 @@ public class Sky extends AbstractAppState {
         this.shadow = this.app.getStateManager().getState(Scene.class).shadow;
 
         skyControl = new SkyControl(assetManager, cam, 0.9f, starMotion, bottomDome);
-        timeOfDay = new TimeOfDay(15);
+        timeOfDay = new TimeOfDay(12);
 
         stateManager.attach(timeOfDay);
         timeOfDay.setRate(20f);
         rootNode.addControl(skyControl);
-
+        skyControl.getUpdater().setMainMultiplier(1f);
         skyControl.getUpdater().setMainLight(sun);
+        skyControl.getUpdater().setAmbientMultiplier(3f);
         skyControl.getUpdater().setAmbientLight(ambient);
         skyControl.getUpdater().addShadowRenderer(shadow);
         skyControl.getUpdater().addViewPort(viewPort);
@@ -70,6 +71,6 @@ public class Sky extends AbstractAppState {
     public void update(float tpf) {
         float hour = timeOfDay.hour();
         skyControl.getSunAndStars().setHour(hour);
-        skyControl.setCloudsRate(hour);
+        skyControl.setCloudsRate(hour/20);
     }
 }

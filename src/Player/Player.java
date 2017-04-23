@@ -5,15 +5,15 @@
  */
 package Player;
 
-import com.jme3.bullet.control.BetterCharacterControl;
+import com.jme3.bullet.control.CharacterControl;
 import com.jme3.scene.Node;
 
 /**
  *
  * @author Zarcos
  */
-public class Player extends Node {
+public class Player extends Node{
 
-    public BetterCharacterControl playerPhys;
+    public CharacterControl playerPhys;
     public Node model;
 }

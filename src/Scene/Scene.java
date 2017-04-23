@@ -19,6 +19,7 @@ import com.jme3.light.AmbientLight;
 import com.jme3.light.DirectionalLight;
 import com.jme3.material.Material;
 import com.jme3.post.FilterPostProcessor;
+import com.jme3.post.filters.LightScatteringFilter;
 import com.jme3.renderer.ViewPort;
 import com.jme3.renderer.queue.RenderQueue;
 import com.jme3.scene.Node;
@@ -44,12 +45,15 @@ public class Scene extends AbstractAppState {
     private Node rootNode;
     private TerrainQuad terrain;
     private ViewPort viewPort;
+    private LightScatteringFilter scattering;
     public FilterPostProcessor fpp;
     public DirectionalLight sun;
     public AmbientLight ambient;
     public DirectionalLightShadowRenderer shadow;
+    
 
     public Node scene;
+    public Node npcNode;
     public BulletAppState physics;
 
     @Override
@@ -62,6 +66,8 @@ public class Scene extends AbstractAppState {
         this.physics = new BulletAppState();
         this.viewPort = this.app.getViewPort();
         this.fpp = new FilterPostProcessor(assetManager);
+        this.npcNode = new Node();
+        rootNode.attachChild(npcNode);
         stateManager.attach(physics);
 
         initScene();
@@ -72,18 +78,18 @@ public class Scene extends AbstractAppState {
         initMap();
 
         scene = new Node();
-        Node vesnice = (Node) assetManager.loadModel("Models/mesto/vesnice.j3o");
-        Node misc = (Node) assetManager.loadModel("Models/mesto/misc.j3o");
+        Node vesnice = (Node) assetManager.loadModel("Models/vesnice.j3o");
+        Node tree = (Node) assetManager.loadModel("Models/tree.j3o");
 
         initLight();
         initShadow();
         initWater();
 
+        terrain.setShadowMode(RenderQueue.ShadowMode.CastAndReceive);
         vesnice.setShadowMode(RenderQueue.ShadowMode.CastAndReceive);
-        misc.setShadowMode(RenderQueue.ShadowMode.CastAndReceive);
-        terrain.setShadowMode(RenderQueue.ShadowMode.Receive);
+        tree.setShadowMode(RenderQueue.ShadowMode.Cast);
         scene.attachChild(vesnice);
-        scene.attachChild(misc);
+        scene.attachChild(tree);
         scene.attachChild(terrain);
         CollisionShape sceneShape = CollisionShapeFactory.createMeshShape(scene);
         RigidBodyControl sceneBody = new RigidBodyControl(sceneShape, 0f);
@@ -156,7 +162,7 @@ public class Scene extends AbstractAppState {
 
         AbstractHeightMap heightMap = new ImageBasedHeightMap(heightMapImage.getImage());
         heightMap.load();
-        heightMap.smooth(0.9f, 1);
+        heightMap.smooth(1f);
 
         terrain = new TerrainQuad("terrain", patchSize, mapSize, heightMap.getHeightMap());
         TerrainLodControl control = new TerrainLodControl(terrain, this.app.getCamera());
@@ -174,7 +180,10 @@ public class Scene extends AbstractAppState {
 
         ambient = new AmbientLight();
         rootNode.addLight(ambient);
-
+        
+        scattering = new LightScatteringFilter();
+        scattering.setLightDensity(0.8f);
+        fpp.addFilter(scattering);
     }
 
     private void initShadow() {
@@ -191,4 +200,10 @@ public class Scene extends AbstractAppState {
         water.setWaterHeight(-4.1f);
         fpp.addFilter(water);
     }
+
+    @Override
+    public void update(float tpf) {
+        scattering.setLightPosition(sun.getDirection().mult(-200000f));
+    }
+    
 }

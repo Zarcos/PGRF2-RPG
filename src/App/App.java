@@ -1,9 +1,11 @@
 package App;
 
+import NPC.EnemyNpcControler;
 import Scene.Scene;
 import Scene.Camera;
 import Player.Control;
 import Player.PlayerControler;
+import Scene.GUI;
 import Scene.Sky;
 import com.jme3.app.SimpleApplication;
 
@@ -30,5 +32,7 @@ public class App extends SimpleApplication {
         this.stateManager.attach(new PlayerControler());
         this.stateManager.attach(new Camera());
         this.stateManager.attach(new Control());
+        this.stateManager.attach(new EnemyNpcControler("Golem"));
+        this.stateManager.attach(new GUI(guiFont, settings));
     }
 }
