@@ -5,6 +5,7 @@
  */
 package Player;
 
+import NPC.EnemyNpcControler;
 import Scene.Scene;
 import com.jme3.app.Application;
 import com.jme3.app.SimpleApplication;
@@ -39,7 +40,7 @@ public class Control extends AbstractAppState implements ActionListener {
     private final Vector3f camLeft;
     private final float playerSpeed;
     private final float strafeSpeed;
-    public boolean left = false, right = false, foward = false, backward = false, jump = false, attack=false;
+    public boolean left = false, right = false, foward = false, backward = false, jump = false, attack = false;
 
     public Control() {
         this.walkDirection = new Vector3f();
@@ -63,8 +64,8 @@ public class Control extends AbstractAppState implements ActionListener {
 
     @Override
     public void update(float tpf) {
-        
-         if(player.playerPhys.getPhysicsLocation().y<-3f){
+
+        if (player.playerPhys.getPhysicsLocation().y < -3f) {
             player.playerPhys.setFallSpeed(5f);
             camDir.set(this.app.getCamera().getDirection()).multLocal(playerSpeed);
             camLeft.set(this.app.getCamera().getLeft().multLocal(strafeSpeed));
@@ -90,15 +91,20 @@ public class Control extends AbstractAppState implements ActionListener {
         if (jump) {
             player.playerPhys.jump();
         }
-        if (attack){
+        
+        if (attack) {
             Ray ray = new Ray(app.getCamera().getLocation(), app.getCamera().getDirection());
             CollisionResults results = new CollisionResults();
             npcNode.collideWith(ray, results);
-            if(results.size()>0){
-                //TODO attack enemy
+            if (results.size() > 0) {
+                if (results.getClosestCollision().getDistance() < 10) {
+                    if (stateManager.getState(PlayerControler.class).isCooldown()) {
+                        stateManager.getState(PlayerControler.class).attack(results);
+                    }
+                    results.clear();
+                }
             }
         }
-       
 
         player.playerPhys.setWalkDirection(walkDirection);
     }

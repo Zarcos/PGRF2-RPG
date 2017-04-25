@@ -1,6 +1,7 @@
 package App;
 
 import NPC.EnemyNpcControler;
+import NPC.EnemyNpcList;
 import Scene.Scene;
 import Scene.Camera;
 import Player.Control;
@@ -8,6 +9,7 @@ import Player.PlayerControler;
 import Scene.GUI;
 import Scene.Sky;
 import com.jme3.app.SimpleApplication;
+import com.jme3.math.Vector3f;
 
 /**
  * This is the Main Class of your Game. You should only do initialization here.
@@ -32,7 +34,7 @@ public class App extends SimpleApplication {
         this.stateManager.attach(new PlayerControler());
         this.stateManager.attach(new Camera());
         this.stateManager.attach(new Control());
-        this.stateManager.attach(new EnemyNpcControler("Golem"));
+        this.stateManager.attach(new EnemyNpcList());
         this.stateManager.attach(new GUI(guiFont, settings));
     }
 }

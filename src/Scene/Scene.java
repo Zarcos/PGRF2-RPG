@@ -199,6 +199,7 @@ public class Scene extends AbstractAppState {
         WaterFilter water = new WaterFilter(rootNode, sun.getDirection());
         water.setWaterHeight(-4.1f);
         fpp.addFilter(water);
+        
     }
 
     @Override

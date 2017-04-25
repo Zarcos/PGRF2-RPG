@@ -3,42 +3,31 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Scene;
+package NPC;
 
-import Player.PlayerControler;
-import Player.Player;
 import com.jme3.app.Application;
 import com.jme3.app.SimpleApplication;
 import com.jme3.app.state.AbstractAppState;
 import com.jme3.app.state.AppStateManager;
-import com.jme3.input.ChaseCamera;
+import com.jme3.math.Vector3f;
 
 /**
  *
  * @author Zarcos
  */
-public class Camera extends AbstractAppState {
-
+public class EnemyNpcList extends AbstractAppState{
+    
     private SimpleApplication app;
     private AppStateManager stateManager;
-    private Player player;
-    public ChaseCamera cam;
 
     @Override
     public void initialize(AppStateManager stateManager, Application app) {
-        super.initialize(stateManager, app);
         this.app = (SimpleApplication) app;
         this.stateManager = this.app.getStateManager();
-        this.player = this.stateManager.getState(PlayerControler.class).player;
-        initCamera();
+        this.stateManager.attach(new EnemyNpcControler(100, new Vector3f(-60, 10, -60)));
+        this.stateManager.attach(new EnemyNpcControler(100, new Vector3f(-70, 10, -60)));
     }
-
-    private void initCamera() {
-        app.getCamera().setFrustumFar(3000f);
-        cam = new ChaseCamera(this.app.getCamera(), player.model, this.app.getInputManager());
-        cam.setDefaultDistance(0.1f);
-        cam.setDragToRotate(false);
-        cam.setInvertVerticalAxis(true);
-    }
-
+    
+    
+    
 }
