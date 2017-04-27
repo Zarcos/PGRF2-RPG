@@ -12,8 +12,15 @@ import com.jme3.scene.Node;
  *
  * @author Zarcos
  */
-public class Player extends Node{
+public class Player extends Node {
 
     public CharacterControl playerPhys;
     public Node model;
+    public int fullHp = 100;
+    public int actualHp = 100;
+    public int experience = 0;
+    public int level = 1;
+    public int nextLevelConst = 20;
+    public int experiencesToLevel = nextLevelConst;
+    public boolean isDead = false;
 }

@@ -13,17 +13,22 @@ import com.jme3.scene.Node;
  *
  * @author Zarcos
  */
-public class EnemyNPC extends Node{
-    
+public class EnemyNPC extends Node {
+
     public CharacterControl npcPhys;
     public Node model;
-    public int hp;
+    public int actualHp;
+    public int fullHp;
+    public int experience;
+    public int damage;
     public Vector3f position;
 
-    public EnemyNPC(int hp, Vector3f position) {
-        this.hp = hp;
+    public EnemyNPC(int hp, Vector3f position, int experience, int damage) {
+        this.fullHp = hp;
+        this.actualHp = hp;
         this.position = position;
+        this.experience = experience;
+        this.damage = damage;
     }
-    
-    
+
 }

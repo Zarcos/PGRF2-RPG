@@ -5,7 +5,6 @@
  */
 package Player;
 
-import NPC.EnemyNpcControler;
 import Scene.Scene;
 import com.jme3.app.Application;
 import com.jme3.app.SimpleApplication;
@@ -40,13 +39,13 @@ public class Control extends AbstractAppState implements ActionListener {
     private final Vector3f camLeft;
     private final float playerSpeed;
     private final float strafeSpeed;
-    public boolean left = false, right = false, foward = false, backward = false, jump = false, attack = false;
+    public boolean left = false, right = false, foward = false, backward = false, jump = false, attack = false, inWater = false;
 
     public Control() {
         this.walkDirection = new Vector3f();
         this.camDir = new Vector3f();
         this.camLeft = new Vector3f();
-        this.playerSpeed = 0.6f;
+        this.playerSpeed = 0.3f;
         this.strafeSpeed = 0.3f;
     }
 
@@ -66,43 +65,51 @@ public class Control extends AbstractAppState implements ActionListener {
     public void update(float tpf) {
 
         if (player.playerPhys.getPhysicsLocation().y < -3f) {
+            inWater = true;
             player.playerPhys.setFallSpeed(5f);
             camDir.set(this.app.getCamera().getDirection()).multLocal(playerSpeed);
             camLeft.set(this.app.getCamera().getLeft().multLocal(strafeSpeed));
         } else {
             player.playerPhys.setGravity(9.8f * 3);
+            inWater = false;
             player.playerPhys.setFallSpeed(55f);
             camDir.set(this.app.getCamera().getDirection()).multLocal(playerSpeed, 0f, playerSpeed);
             camLeft.set(this.app.getCamera().getLeft().multLocal(strafeSpeed, 0f, strafeSpeed));
         }
-        walkDirection.set(0, 0, 0);
-        if (left) {
-            walkDirection.addLocal(camLeft);
+        if (player.playerPhys.onGround() || inWater) {
+            walkDirection.set(new Vector3f(Vector3f.ZERO));
+            if (left) {
+                walkDirection.addLocal(camLeft);
+            }
+            if (right) {
+                walkDirection.addLocal(camLeft.negate());
+            }
+            if (foward) {
+                walkDirection.addLocal(camDir);
+            }
+            if (backward) {
+                walkDirection.addLocal(camDir.negate());
+            }
+            if (jump) {
+                player.playerPhys.jump();
+            }
         }
-        if (right) {
-            walkDirection.addLocal(camLeft.negate());
-        }
-        if (foward) {
-            walkDirection.addLocal(camDir);
-        }
-        if (backward) {
-            walkDirection.addLocal(camDir.negate());
-        }
-        if (jump) {
-            player.playerPhys.jump();
-        }
-        
+
         if (attack) {
             Ray ray = new Ray(app.getCamera().getLocation(), app.getCamera().getDirection());
             CollisionResults results = new CollisionResults();
             npcNode.collideWith(ray, results);
+
             if (results.size() > 0) {
-                if (results.getClosestCollision().getDistance() < 10) {
+                if (results.getClosestCollision().getDistance() < 13) {
                     if (stateManager.getState(PlayerControler.class).isCooldown()) {
                         stateManager.getState(PlayerControler.class).attack(results);
                     }
                     results.clear();
                 }
+            }
+            if (stateManager.getState(PlayerControler.class).isCooldown()) {
+                stateManager.getState(PlayerControler.class).setCooldown();
             }
         }
 

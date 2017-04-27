@@ -1,6 +1,5 @@
 package App;
 
-import NPC.EnemyNpcControler;
 import NPC.EnemyNpcList;
 import Scene.Scene;
 import Scene.Camera;
@@ -9,7 +8,6 @@ import Player.PlayerControler;
 import Scene.GUI;
 import Scene.Sky;
 import com.jme3.app.SimpleApplication;
-import com.jme3.math.Vector3f;
 
 /**
  * This is the Main Class of your Game. You should only do initialization here.
@@ -21,6 +19,8 @@ public class App extends SimpleApplication {
 
     public static void main(String[] args) {
         App app = new App();
+        app.setDisplayStatView(false);
+        app.setDisplayFps(false);
         app.start();
 
     }

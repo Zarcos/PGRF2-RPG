@@ -9,6 +9,8 @@ import com.jme3.app.Application;
 import com.jme3.app.SimpleApplication;
 import com.jme3.app.state.AbstractAppState;
 import com.jme3.app.state.AppStateManager;
+import com.jme3.asset.AssetEventListener;
+import com.jme3.asset.AssetKey;
 import com.jme3.asset.AssetManager;
 import com.jme3.asset.TextureKey;
 import com.jme3.bullet.BulletAppState;
@@ -19,11 +21,12 @@ import com.jme3.light.AmbientLight;
 import com.jme3.light.DirectionalLight;
 import com.jme3.material.Material;
 import com.jme3.post.FilterPostProcessor;
+import com.jme3.post.filters.DepthOfFieldFilter;
 import com.jme3.post.filters.LightScatteringFilter;
 import com.jme3.renderer.ViewPort;
 import com.jme3.renderer.queue.RenderQueue;
 import com.jme3.scene.Node;
-import com.jme3.shadow.DirectionalLightShadowRenderer;
+import com.jme3.shadow.DirectionalLightShadowFilter;
 import com.jme3.shadow.EdgeFilteringMode;
 import com.jme3.terrain.geomipmap.TerrainLodControl;
 import com.jme3.terrain.geomipmap.TerrainQuad;
@@ -49,8 +52,7 @@ public class Scene extends AbstractAppState {
     public FilterPostProcessor fpp;
     public DirectionalLight sun;
     public AmbientLight ambient;
-    public DirectionalLightShadowRenderer shadow;
-    
+    public DirectionalLightShadowFilter shadow;
 
     public Node scene;
     public Node npcNode;
@@ -70,6 +72,28 @@ public class Scene extends AbstractAppState {
         rootNode.attachChild(npcNode);
         stateManager.attach(physics);
 
+        AssetEventListener asl = new AssetEventListener() {
+            @Override
+            public void assetLoaded(AssetKey key) {
+
+            }
+
+            @Override
+            public void assetRequested(AssetKey key) {
+                if (key.getExtension().equals("png") || key.getExtension().equals("tga")) {
+
+                    TextureKey tkey = (TextureKey) key;
+                    tkey.setAnisotropy(16);
+                }
+            }
+
+            @Override
+            public void assetDependencyNotFound(AssetKey parentKey, AssetKey dependentAssetKey) {
+
+            }
+        };
+
+        assetManager.addAssetEventListener(asl);
         initScene();
     }
 
@@ -91,8 +115,9 @@ public class Scene extends AbstractAppState {
         scene.attachChild(vesnice);
         scene.attachChild(tree);
         scene.attachChild(terrain);
+
         CollisionShape sceneShape = CollisionShapeFactory.createMeshShape(scene);
-        RigidBodyControl sceneBody = new RigidBodyControl(sceneShape, 0f);
+        RigidBodyControl sceneBody = new RigidBodyControl(sceneShape, 0.0f);
         scene.addControl(sceneBody);
         rootNode.attachChild(scene);
         physics.getPhysicsSpace().add(sceneBody);
@@ -180,7 +205,7 @@ public class Scene extends AbstractAppState {
 
         ambient = new AmbientLight();
         rootNode.addLight(ambient);
-        
+
         scattering = new LightScatteringFilter();
         scattering.setLightDensity(0.8f);
         fpp.addFilter(scattering);
@@ -188,10 +213,16 @@ public class Scene extends AbstractAppState {
 
     private void initShadow() {
 
-        shadow = new DirectionalLightShadowRenderer(assetManager, 4096, 2);
+        shadow = new DirectionalLightShadowFilter(assetManager, 1500, 2);
         shadow.setLight(sun);
         shadow.setEdgeFilteringMode(EdgeFilteringMode.PCFPOISSON);
-        viewPort.addProcessor(shadow);
+        fpp.addFilter(shadow);
+
+        DepthOfFieldFilter dof = new DepthOfFieldFilter();
+        dof.setFocusDistance(0f);
+        dof.setFocusRange(500f);
+        dof.setBlurScale(1.2f);
+        fpp.addFilter(dof);
 
     }
 
@@ -199,12 +230,12 @@ public class Scene extends AbstractAppState {
         WaterFilter water = new WaterFilter(rootNode, sun.getDirection());
         water.setWaterHeight(-4.1f);
         fpp.addFilter(water);
-        
+
     }
 
     @Override
     public void update(float tpf) {
         scattering.setLightPosition(sun.getDirection().mult(-200000f));
     }
-    
+
 }

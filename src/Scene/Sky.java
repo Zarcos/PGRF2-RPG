@@ -15,7 +15,7 @@ import com.jme3.light.DirectionalLight;
 import com.jme3.renderer.Camera;
 import com.jme3.renderer.ViewPort;
 import com.jme3.scene.Node;
-import com.jme3.shadow.DirectionalLightShadowRenderer;
+import com.jme3.shadow.DirectionalLightShadowFilter;
 import jme3utilities.TimeOfDay;
 import jme3utilities.sky.SkyControl;
 
@@ -34,9 +34,10 @@ public class Sky extends AbstractAppState {
     private ViewPort viewPort;
     private AmbientLight ambient;
     private DirectionalLight sun;
-    private DirectionalLightShadowRenderer shadow;
+    private DirectionalLightShadowFilter shadow;
     private final boolean starMotion = true;
     private final boolean bottomDome = true;
+    private float speed = 20f;
 
     @Override
     public void initialize(AppStateManager stateManager, Application app) {
@@ -54,16 +55,15 @@ public class Sky extends AbstractAppState {
         timeOfDay = new TimeOfDay(12);
 
         stateManager.attach(timeOfDay);
-        timeOfDay.setRate(20f);
+        timeOfDay.setRate(speed);
         rootNode.addControl(skyControl);
-        skyControl.getUpdater().setMainMultiplier(1f);
         skyControl.getUpdater().setMainLight(sun);
         skyControl.getUpdater().setAmbientMultiplier(3f);
         skyControl.getUpdater().setAmbientLight(ambient);
-        skyControl.getUpdater().addShadowRenderer(shadow);
+        skyControl.getUpdater().addShadowFilter(shadow);
         skyControl.getUpdater().addViewPort(viewPort);
         skyControl.getSunAndStars().setObserverLatitude(0.9f);
-        skyControl.setCloudiness(0.8f);
+        skyControl.setCloudiness(0.7f);
         skyControl.setEnabled(true);
     }
 
@@ -71,6 +71,6 @@ public class Sky extends AbstractAppState {
     public void update(float tpf) {
         float hour = timeOfDay.hour();
         skyControl.getSunAndStars().setHour(hour);
-        skyControl.setCloudsRate(hour/20);
+        skyControl.setCloudsRate(hour/speed);
     }
 }

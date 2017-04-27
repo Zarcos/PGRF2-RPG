@@ -32,19 +32,23 @@ public class EnemyNpcControler extends AbstractAppState {
     private BulletAppState physics;
     private Node npcNode;
     private boolean isDead = false;
+    private float cooldown;
+    private final float cooldownTimer = 1.5f;
     private float respawn;
     public EnemyNPC npc;
     public Player player;
     private int hp;
-    private final Vector3f position;
     private int oldHP = hp;
+    private final Vector3f position;
+    private final int experience;
+    private final int damage;
 
-    public EnemyNpcControler(int hp, Vector3f position) {
+    public EnemyNpcControler(int hp, Vector3f position, int experience, int damage) {
         this.hp = hp;
         this.position = position;
+        this.experience = experience;
+        this.damage = damage;
     }
-    
-    
 
     @Override
     public void initialize(AppStateManager stateManager, Application app) {
@@ -60,26 +64,31 @@ public class EnemyNpcControler extends AbstractAppState {
 
     @Override
     public void update(float tpf) {
-        
-        if(!(oldHP==(Integer)npc.model.getUserData("HP"))){
+
+        if (!(oldHP == (Integer) npc.model.getUserData("HP"))) {
             npc.npcPhys.jump();
             oldHP = (Integer) npc.model.getUserData("HP");
         }
-        
-        
+
         if ((Integer) npc.model.getUserData("HP") <= 0 && !isDead) {
             npcNode.detachChild(npc.model);
             isDead = true;
             respawn = 3;
+            stateManager.getState(PlayerControler.class).addExperience(npc.experience);
         }
 
         if (isDead) {
             respawn -= tpf;
             if (respawn <= 0) {
+                npc.npcPhys.setPhysicsLocation(npc.position);
                 npcNode.attachChild(npc.model);
-                npc.model.setUserData("HP", 100);
+                npc.model.setUserData("HP", npc.fullHp);
                 isDead = false;
             }
+        }
+
+        if (cooldown > 0) {
+            cooldown -= tpf;
         }
 
         Vector3f playerLoc = player.playerPhys.getPhysicsLocation();
@@ -92,29 +101,34 @@ public class EnemyNpcControler extends AbstractAppState {
             npc.npcPhys.setViewDirection(new Vector3f(x, 0, z));
         }
 
-        if (distance < 30 && distance > 10) {
-            npc.npcPhys.setWalkDirection(new Vector3f(x / 100, 0, z / 100));
-        } else if (distance < 8) {
-            npc.npcPhys.setWalkDirection(new Vector3f(-x / 100, 0, -z / 100));
+        if (distance < 30 && distance > 9) {
+            npc.npcPhys.setWalkDirection(new Vector3f(x / 200, 0, z / 200));
+        } else if (distance < 10 && isCooldown()) {
+            stateManager.getState(PlayerControler.class).getDamage(npc.damage);
+            cooldown = cooldownTimer;
         } else {
             npc.npcPhys.setWalkDirection(new Vector3f(Vector3f.ZERO));
         }
     }
 
     private void initNpc() {
-        npc = new EnemyNPC(hp, position);
-        npc.model = (Node) assetManager.loadModel("Models/Oto/Oto.mesh.xml");
-        npc.model.setShadowMode(RenderQueue.ShadowMode.CastAndReceive);
-        npc.model.setUserData("HP", npc.hp);
+        npc = new EnemyNPC(hp, position, experience, damage);
+        npc.model = (Node) assetManager.loadModel("Models/fox.j3o");
+        npc.model.scale(0.3f);
+        npc.model.setShadowMode(RenderQueue.ShadowMode.Receive);
+        npc.model.setUserData("HP", npc.actualHp);
         npc.model.scale(0.3f);
 
-        CapsuleCollisionShape capsule = new CapsuleCollisionShape(1f, 1.2f);
+        CapsuleCollisionShape capsule = new CapsuleCollisionShape(0.01f, 0.01f);
         npc.npcPhys = new CharacterControl(capsule, 0.1f);
         npc.model.addControl(npc.npcPhys);
         npc.npcPhys.setPhysicsLocation(npc.position);
         npc.npcPhys.setJumpSpeed(5f);
-        npc.npcPhys.setMaxSlope(45f);
         npcNode.attachChild(npc.model);
         physics.getPhysicsSpace().add(npc.npcPhys);
+    }
+
+    private boolean isCooldown() {
+        return cooldown <= 0;
     }
 }

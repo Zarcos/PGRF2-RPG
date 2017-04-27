@@ -15,19 +15,17 @@ import com.jme3.math.Vector3f;
  *
  * @author Zarcos
  */
-public class EnemyNpcList extends AbstractAppState{
-    
+public class EnemyNpcList extends AbstractAppState {
+
     private SimpleApplication app;
     private AppStateManager stateManager;
 
+    //NPC = HP, Position, Experience, Damage
     @Override
     public void initialize(AppStateManager stateManager, Application app) {
         this.app = (SimpleApplication) app;
         this.stateManager = this.app.getStateManager();
-        this.stateManager.attach(new EnemyNpcControler(100, new Vector3f(-60, 10, -60)));
-        this.stateManager.attach(new EnemyNpcControler(100, new Vector3f(-70, 10, -60)));
+        this.stateManager.attach(new EnemyNpcControler(100, new Vector3f(-60, 10, -60), 20, 14));
+        this.stateManager.attach(new EnemyNpcControler(100, new Vector3f(-70, 10, -60), 20, 18));
     }
-    
-    
-    
 }

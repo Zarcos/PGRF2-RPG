@@ -34,7 +34,7 @@ public class Camera extends AbstractAppState {
     }
 
     private void initCamera() {
-        app.getCamera().setFrustumFar(3000f);
+        app.getCamera().setFrustumFar(1500f);
         cam = new ChaseCamera(this.app.getCamera(), player.model, this.app.getInputManager());
         cam.setDefaultDistance(0.1f);
         cam.setDragToRotate(false);
