@@ -53,7 +53,6 @@ public class GUI extends AbstractAppState {
         initPlayerStats();
         initCooldown();
         initDeadPlayer();
-        guiNode.detachAllChildren();
     }
 
     @Override

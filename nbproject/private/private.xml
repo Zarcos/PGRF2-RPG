@@ -3,13 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/zarco/Documents/PGRF2-RPG/src/NPC/EnemyNpcControler.java</file>
             <file>file:/C:/Users/zarco/Documents/PGRF2-RPG/src/Player/Control.java</file>
-            <file>file:/C:/Users/zarco/Documents/PGRF2-RPG/src/NPC/EnemyNPC.java</file>
-            <file>file:/C:/Users/zarco/Documents/PGRF2-RPG/assets/Scenes/fox.j3o</file>
-            <file>file:/C:/Users/zarco/Documents/PGRF2-RPG/src/Scene/Scene.java</file>
+            <file>file:/C:/Users/zarco/Documents/PGRF2-RPG/src/Scene/GUI.java</file>
+            <file>file:/C:/Users/zarco/Documents/PGRF2-RPG/src/Scene/Sky.java</file>
             <file>file:/C:/Users/zarco/Documents/PGRF2-RPG/src/App/App.java</file>
-            <file>file:/C:/Users/zarco/Documents/PGRF2-RPG/src/Player/PlayerControler.java</file>
         </group>
     </open-files>
 </project-private>
